@@ -6,11 +6,13 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./my-header.component.scss']
 })
 export class MyHeaderComponent implements OnInit {
+  uesr_name;
   @Output() onBarClick = new EventEmitter<string>();
 
   constructor() { }
 
   ngOnInit() {
+    this.uesr_name = "Vivi Lei";
   }
   onClick(value) {
     console.log(value);

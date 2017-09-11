@@ -17,4 +17,11 @@ i{
     // padding-right:15px;
     padding-top:15px;
 }
+.user-info{
+    display: flex;
+    align-self:flex-end;
+}
+i:nth-child(2){
+    padding-top:10px;
+}
 
